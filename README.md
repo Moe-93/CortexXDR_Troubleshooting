@@ -44,7 +44,7 @@ python cortex_xdr_log_analyzer.py --self-test
 ## Windows examples
 
 ```powershell
-python .\cortex_xdr_log_analyzer.py --input "C:\Temp\CortexSupportLogs" --output .\report.json --html .\report.html --csv .\findings.csv
+python .\cortex_xdr_log_analyzer.py --input "C:\Temp\CortexSupportLogs" --output \report.json --html \report.html --csv \findings.csv
 python .\cortex_xdr_log_analyzer.py --input "C:\ProgramData\Palo Alto Networks\Traps\logs\pmd.log" --verbose
 ```
 
